@@ -16,7 +16,7 @@ import java.util.Optional;
 public final class BookRepository {
 
     private static BookRepository INSTANCE;
-    @Getter
+
     private Map<Book, BookStatus> books = new HashMap<>();
 
     public static BookRepository getInstance() {
