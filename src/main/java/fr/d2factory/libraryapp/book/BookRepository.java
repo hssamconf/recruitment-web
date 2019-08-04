@@ -41,11 +41,6 @@ public final class BookRepository {
         books.replace(book, BookStatus.AVAILABLE, BookStatus.UNAVAILABLE);
     }
 
-    public LocalDate findBorrowedBookDate(Book book) {
-        //TODO implement the missing feature
-        return null;
-    }
-
     public void saveBookReturn(Book book) {
         books.replace(book, BookStatus.UNAVAILABLE, BookStatus.AVAILABLE);
     }
