@@ -3,7 +3,7 @@
 .idea
 target
 
-# Log file
+# LibraryLog file
 *.log
 
 # BlueJ files
